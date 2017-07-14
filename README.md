@@ -11,6 +11,10 @@ This playbook has been tested against Fedora 25.
 
     ansible-galaxy install hekonsek.raw,0.0
 
+## Variables
+
+- `command`: **Required.** Raw SSH command to execute.
+
 ## Example playbook
 
     - hosts: localhost
