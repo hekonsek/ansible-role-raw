@@ -1,0 +1,2 @@
+- name: Executing raw command {{command}}
+  raw: "{{command}}"
